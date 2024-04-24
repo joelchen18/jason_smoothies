@@ -4,7 +4,7 @@ from snowflake.snowpark.functions import col
 
 
 # Write directly to the app
-st.title(":cup_with_straw: 来定制您的果蔬吧！:cup_with_straw:")
+st.title(":cup_with_straw: 来定制您的云上果蔬吧！:cup_with_straw:")
 st.write(
     """小朋友们，来选择你喜欢的水果，吃吃吃!
     """
