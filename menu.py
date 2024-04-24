@@ -19,7 +19,7 @@ st.write('请填写您的可爱名字:', name_on_order)
 #my_dataframe = session.table("smoothies.public.fruit_options").select(col('FRUIT_NAME'))
 #st.dataframe(data=my_dataframe, use_container_width=True)
 
-session = cnx
+
 my_dataframe = session.table("smoothies.public.fruit_options").select(col('FRUIT_NAME'))
 #st.dataframe(data=my_dataframe, use_container_width=True)
 ingredients_list=st.multiselect("最多选择五个哦，不然会吃不下晚饭呢:", my_dataframe);
