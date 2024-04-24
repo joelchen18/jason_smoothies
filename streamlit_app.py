@@ -4,7 +4,7 @@ from snowflake.snowpark.functions import col
 from snowflake.snowpark.functions import when_matched
 
 # Write directly to the app
-st.title(":cup_with_straw: 待处理的订单 :cup_with_straw:")
+st.title(":cup_with_straw: 待处理的云订单 :cup_with_straw:")
 st.write(
     """请帮忙准备订单里面的云上水果哦！
     """
